@@ -1,6 +1,7 @@
 <template>
 <div>
     <button @click="navigate()">Login SSO</button>
+    <router-link :to="{ name: 'Home' }">Home</router-link>
 </div>
 </template>
 
