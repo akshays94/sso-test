@@ -11,7 +11,8 @@ export default {
     },
     methods: {
         navigate () {
-            let url = 'https://rhombusdevteam-dev.onelogin.com/trust/saml2/http-post/sso/398e7049-05d0-4966-a3f9-23bbd542b665'
+            // let url = 'https://rhombusdevteam-dev.onelogin.com/trust/saml2/http-post/sso/398e7049-05d0-4966-a3f9-23bbd542b665'
+            let url = 'https://rhombusdevteam-dev.onelogin.com/trust/saml2/http-redirect/sso/09c00e96-cdec-4319-ab46-941b6d324ede'
             window.location.href = url
         }
     }
