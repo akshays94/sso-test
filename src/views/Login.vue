@@ -8,6 +8,15 @@
 <script>
 export default {
     created () {
+        let query = this.$route.query
+        console.log(query)
+        if (query) {
+            if ('isAuthenticated' in query) {
+                this.$router.push(this.$route.path)
+                alert('Authenticated')
+                console.log('query', query)
+            } 
+        }
     },
     methods: {
         navigate () {
