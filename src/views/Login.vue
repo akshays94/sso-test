@@ -13,7 +13,7 @@ export default {
         if (query) {
             if ('isAuthenticated' in query) {
                 this.$router.push(this.$route.path)
-                alert('Authenticated')
+                alert(`Authenticated: ${query.email}`)
                 console.log('query', query)
             } 
         }
